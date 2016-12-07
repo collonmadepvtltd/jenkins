@@ -4,7 +4,7 @@
  *
  * @package WordPress
  */
-echo 'This is wp change';
+
 if ( !isset($wp_did_header) ) {
 
 	$wp_did_header = true;
@@ -19,3 +19,5 @@ if ( !isset($wp_did_header) ) {
 	require_once( ABSPATH . WPINC . '/template-loader.php' );
 
 }
+
+echo 'This is wp change';
