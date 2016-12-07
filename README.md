@@ -1,2 +1,2 @@
 # jenkins V1
-Build successful
+Automatic Build successful
