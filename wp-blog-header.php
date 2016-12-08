@@ -20,4 +20,3 @@ if ( !isset($wp_did_header) ) {
 
 }
 
-echo 'This is wp change';

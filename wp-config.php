@@ -46,14 +46,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'COLLONMADE1');
-define('SECURE_AUTH_KEY',  'COLLONMADE2');
-define('LOGGED_IN_KEY',    'COLLONMADE3');
-define('NONCE_KEY',        'COLLONMADE5');
-define('AUTH_SALT',        'COLLONMADE6');
-define('SECURE_AUTH_SALT', 'COLLONMADE7');
-define('LOGGED_IN_SALT',   'COLLONMADE8');
-define('NONCE_SALT',       'COLLONMADE9');
+define('AUTH_KEY',         '');
+define('SECURE_AUTH_KEY',  '');
+define('LOGGED_IN_KEY',    '');
+define('NONCE_KEY',        '');
+define('AUTH_SALT',        '');
+define('SECURE_AUTH_SALT', '');
+define('LOGGED_IN_SALT',   '');
+define('NONCE_SALT',       '');
 
 /**#@-*/
 
@@ -77,7 +77,7 @@ $table_prefix  = 'wp_';
  *
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
-define('WP_DEBUG', false);
+define('WP_DEBUG', true);
 
 /* That's all, stop editing! Happy blogging. */
 
