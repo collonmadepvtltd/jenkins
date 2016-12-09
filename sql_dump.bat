@@ -1,0 +1,1 @@
+mysqldump --user root --password=root --no-data --skip-add-drop-table  --database wordpress | sed 's/CREATE TABLE/CREATE TABLE IF NOT EXISTS/g' > wordpress.sql

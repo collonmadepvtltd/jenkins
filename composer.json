@@ -1,0 +1,14 @@
+{
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://wpackagist.org"
+        }
+
+    ],
+    "config": {"secure-http":false},
+    "require": {
+        "wpackagist-plugin/captcha": ">=3.9",
+        "wpackagist-plugin/wp-migrate-db": "*"
+    }
+}
